@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.polymorph {
+  fill: #398f5a;
+}
+
+#cta, #cta2{
+    position: absolute;
+    margin: 10em auto 0 auto;
+    left: 0;
+    right: 0;
+    width: 20%;
+    background: none;
+    border: 2px dashed #fff;
+    border-radius: 15px;
+    padding: 15px;
+    color: #fff;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: 0;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+#cta2{
+    width: auto;
+    margin: 30px auto;
+    background: #398f5a;
+}
+
+#blip{
+    position: absolute;
+    color: #398f5a;
+    right:  25%;
+    top: 0%;
+    opacity: 0;
+    width: 30%;
+    transform: translateY(-800px);
+}
